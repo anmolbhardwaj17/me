@@ -1,0 +1,327 @@
+body {
+  font-family:Roboto;
+}
+
+a span {color:#696969;
+  transition: 0.3s; /*originalcolour*/}
+a span:hover {
+  color:#fa6925;
+  
+}
+
+
+#image {
+  width:100%;
+  height:100%;
+  display:block;
+}
+.gradient {
+  background: linear-gradient(to right, #FD0505 0%, #ffb026 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.container {
+  width:64%;
+}
+.introtext {
+  height:600px;
+  padding-left:10%;
+}
+
+#hello {
+  padding-top: 100px;
+  font-size: 70px;
+  font-weight: 500; 
+}
+#im {
+
+  font-size: 60px;
+  font-weight: 500; 
+}
+#firstname {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 70px;
+  background: linear-gradient(to right, #FD0505 0%, #ffb026 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#lastname {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 70px;
+  margin:0;
+  padding:0;
+  background: linear-gradient(to right, #FD0505 0%, #ffb026 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#introabout {
+  padding-top: 60px;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+#workh1 {
+  padding-left:56px;
+}
+.worktext {
+  padding: 10%;
+  text-align: center;
+  font-family: Roboto;
+}
+.compname {
+  
+  font-weight: 700;
+  font-size: 50px;
+
+}
+.desi {
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 32px;
+  
+  background: linear-gradient(to right, #FD0505 0%, #D09727 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.workabout {
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 36px;
+}
+.timeperiod {
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 32px;
+  color:#bdb79f;
+}
+#abouth1 {
+  padding-left:56px;
+}
+.abouttext {
+  padding:10%;
+  padding-top: 20%;
+  font-size: 16px;
+  font-weight:500;
+}
+#text2 {
+  padding-top: 10%;
+}
+#tagline {
+  padding-top:15%;
+  font-size: 18px;
+}
+#image2 {
+  width:50%;
+  height:50%;
+  display:block;
+  float:right;
+  margin-right: 60px;
+}
+#contacth1 {
+  padding-left:56px;
+}
+
+.contacttext {
+  padding:10%;
+}
+#contactmain {
+  padding-top: 6%;
+  font-weight:500;
+  font-size:16px;
+}
+#tagcontact {
+  padding-top:10%;
+  font-size: 18px;
+  font-weight:500;
+}
+
+.links2 {
+  border:0;
+  background:none;
+  outline:0;
+  padding:20px;
+  padding-left: 50px;
+  align-items: center;
+  opacity: 0.6;
+  line-height: 24px;
+  font-size:14px;
+}
+.links2:hover {
+  color:black;
+  transition: all 0.4s ease 0s;
+}
+#gmail {
+  padding-left: 65px;
+}
+#musich1 {
+  padding-left:56px;
+}
+.musictext {
+  padding:10%;
+  font-weight:500 ;
+}
+#musicmain {
+  padding-top:10%;
+  font-size: 16px;
+}
+#musictag {
+  padding-top:10%;
+  font-size: 18px;
+  font-weight:500;
+}
+.music {
+  margin-left: 60px;
+}
+#end {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  color:#B2B2B2;
+}
+
+
+
+
+@media (max-width: 1210px) {
+  #image {
+    display:none;
+  }
+}
+@media (max-width: 768px) {
+  #hello {
+    font-size: 50px;
+  }
+  #im {
+    font-size: 45px;
+  }
+  #firstname {
+    font-size: 50px;
+  }
+  #lastname {
+    font-size: 50px;
+  }
+  #workh1 {
+    text-align: center;
+    
+  }
+  .compname {
+    font-size:32px ;
+  }
+  .desi {
+    font-size:16px;
+  }
+  .workabout {
+    font-size: 12px;
+  }
+  #abouth1 {
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 10px;
+  
+  }
+  .links2 {
+    font-size:10px;
+  }
+  .abouttext {
+    padding-top:15%;
+    font-size: 12px;;
+  }
+  #tagline {
+    font-size: 12px;
+  }
+  #phone {
+    padding-left:45px;
+  }
+  #contacth1 {
+    text-align: center;
+    padding:0;
+  }
+  #music {
+    width:50%;
+    height:50%;
+  }
+  #musich1  {
+    text-align:center;
+  }
+  #gaana {
+    display:none;
+  }
+
+}
+@media (max-width: 414px) {
+  .container{
+    width:100%;
+  }
+  .introtext {
+    padding-left:10px;
+    font-size: 10px;
+  }
+  #hello {
+    font-size: 36px;
+  }
+  #im {
+    font-size: 28px;
+  }
+  #firstname {
+    font-size: 32px;
+  }
+  #lastname {
+    font-size: 32px;
+  }
+  #introabout {
+    font-size:18px;
+  }
+  #workh1 {
+    text-align: center;
+    padding:0;
+  }
+  .compname {
+    padding-top:16px;
+  }
+  .desi {
+    padding-top: 12px;
+  }
+  .workabout {
+    padding-top: 12px;
+  }
+  .timeperiod {
+    padding-top: 12px;
+  }
+  .abouttext {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  #image2 {
+    display:none;
+  }
+  #contacth1 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .contacttext {
+    text-align: center;
+  }
+  .links2 {
+    margin:9%;
+    padding-right: 5px;
+  }
+  #gmail {
+    padding-left:22%;
+  } 
+  #gaana {
+    display:none;
+  }
+  #end {
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+
+  }
+}
+
+
